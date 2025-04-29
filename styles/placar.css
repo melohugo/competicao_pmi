@@ -1,0 +1,55 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 16px;
+  margin-top: 1em;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+thead tr {
+  background-color: #0078C8;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+}
+
+th, td {
+  padding: 12px 16px;
+  text-align: left;
+}
+
+tbody tr:nth-child(even):not(.highlight-1):not(.highlight-2):not(.highlight-3) {
+  background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+  background-color: #e6f2ff;
+}
+
+tr.highlight-1 {
+  background-color: gold !important;
+  color: #000;
+  font-weight: bold;
+}
+
+tr.highlight-2 {
+  background-color: silver !important;
+  color: #000;
+  font-weight: bold;
+}
+
+tr.highlight-3 {
+  background-color: #cd7f32 !important;
+  color: #fff;
+  font-weight: bold;
+}
+
+th:hover {
+  background-color: #005fa3;
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+}
+
