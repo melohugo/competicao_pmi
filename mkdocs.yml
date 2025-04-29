@@ -1,0 +1,21 @@
+site_name: Placar da Competição PMI
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: blue
+    accent: deep purple
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.instant
+    - content.tabs.link
+    - content.code.annotate
+
+extra_css:
+  - styles/placar.css
+
+extra_javascript:
+  - scripts/sort-table.js
+
